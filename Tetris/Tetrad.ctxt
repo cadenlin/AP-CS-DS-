@@ -1,0 +1,31 @@
+#BlueJ class context
+comment0.target=Tetrad
+comment0.text=\n\ The\ Tetard\ class\ makes\ four-block\ tetrads\ for\ the\ tetris\ game.\ \n\n\ @author\ Caden\ Lin\ \n\ @version\ April\ 19,\ 2021\ \n
+comment1.params=grid
+comment1.target=Tetrad(MyBoundedGrid)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Tetrad\n\ @param\ grid\ the\ grid\ that\ the\ tetrad\ is\ in\ \n
+comment2.params=grid\ shape
+comment2.target=Tetrad(MyBoundedGrid,\ int)
+comment2.text=\ Constructor\ for\ tetrad\ objects\ with\ a\ specified\ shape\ \n\ @param\ grid\ the\ grid\ to\ put\ the\ tetrad\ in\ \n\ @param\ shape\ a\ number\ that\ specifies\ the\ shape\ of\ the\ object\ \n\ \n
+comment3.params=
+comment3.target=Block[]\ getBlocks()
+comment3.text=\n\ returns\ the\ blocks\ in\ the\ tetrad\ \n\n\ @return\ the\ \ array\ that\ contains\ the\ blocks\n\ \n
+comment4.params=
+comment4.target=int\ getShape()
+comment4.text=\ Determines\ the\ shape\ of\ the\ object\ \n\ @return\ an\ integer\ that\ indicates\ the\ shape\ of\ the\ object\ \n\ \n
+comment5.params=g\ l
+comment5.target=void\ addToLocations(MyBoundedGrid,\ Location[])
+comment5.text=\n\ Adds\ a\ block\ in\ the\ given\ locations\ \n\ @precondition\:\ blocks\ are\ not\ in\ any\ grid;\n\ @precondition\:\ locs.length\ \=\ 4.\n\ @postcondition\:\ The\ locations\ of\ blocks\ match\ locs,\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ blocks\ have\ been\ put\ in\ the\ grid.\n\ \ @param\ g\ the\ grid\ to\ add\ blocks\ to\ \n\ \ @param\ l\ the\ array\ of\ locations\ \n
+comment6.params=
+comment6.target=Location[]\ removeBlocks()
+comment6.text=\ Removes\ the\ tetrad\ from\ the\ grid\n\ @precondition\:\ Blocks\ are\ in\ the\ grid.\n\ @postcondition\:\ Returns\ old\ locations\ of\ blocks;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ blocks\ have\ been\ removed\ from\ grid.\n\ \ @return\ an\ array\ of\ locations\ of\ the\ tetrad\ \ \ \ \ \ \ \ \ \ \ \ \ \ \n
+comment7.params=g\ l
+comment7.target=boolean\ areEmpty(MyBoundedGrid,\ Location[])
+comment7.text=\ Determines\ if\ the\ locations\ in\ the\ grid\ are\ empty\ \ \n\ @param\ g\ the\ grid\ to\ check\ \n\ @param\ l\ the\ locations\ to\ check\ in\ the\ grid\ \n\ @return\ \ true\ if\ each\ of\ locs\ is\ valid\ and\ empty\ in\ grid;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ false\ otherwise.\n
+comment8.params=deltaRow\ deltaCol
+comment8.target=boolean\ translate(int,\ int)
+comment8.text=\ Shifts\ a\ tetrad\ by\ a\ given\ amount\ \n\ @postcondition\:\ Attempts\ to\ move\ this\ tetrad\ deltaRow\ rows\ down\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ deltaCol\ columns\ to\ the\ right,\ if\ those\ positions\ are\ valid\ and\ empty\n\ @param\ deltaRow\ the\ number\ of\ rows\ to\ move\ the\ tetrad\ down\ by\ \n\ @param\ deltaCol\ the\ number\ of\ columns\ to\ move\ the\ tetrad\ right\ by\ \n\ @return\ true\ if\ successful,\ false\ otherwise.\n\ \n
+comment9.params=
+comment9.target=boolean\ rotate()
+comment9.text=\ Rotates\ the\ tetrad\ 90\ degrees\ around\ the\ center\ block\ \n\ @postcondition\ the\ tetrad\ is\ rotated\ 90\ degrees\ around\ its\ center\ if\ it\ can\ be\ \ \n\ @return\ true\ if\ rotated,\ false\ otherwise\ \n\ \n
+numComments=10

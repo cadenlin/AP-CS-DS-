@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=MyLocation
+comment0.text=\n\ The\ MyLocation\ class\ defines\ a\ MyLocation\ object\ which\ has\ a\ \n\ given\ number\ of\ rows\ and\ columns.\ \n\ @author\ Caden\ Lin\ \n\ @version\ March\ 9,\ 2021\n
+comment1.params=r\ c
+comment1.target=MyLocation(int,\ int)
+comment1.text=\n\ Constructor\:\ MyLocation()\n\ Usage\:\ MyLocation\ loc\ \=\ new\ MyLocation(row,\ col);\n\ -----------------------------\n\ creates\ a\ MyLocation\ object\ with\ the\ given\ row\ &\ col\n\ \n\ @param\ r\ -\ row\ of\ this\ MyLocation\n\ @param\ c\ -\ column\ of\ this\ MyLocaiton\n
+comment2.params=
+comment2.target=int\ getRow()
+comment2.text=\n\ Method\:\ getRow()\n\ Usage\:\ determines\ the\ number\ of\ rows\ \n\ @return\ the\ number\ of\ rows\ in\ the\ object\ \ \n
+comment3.params=
+comment3.target=int\ getCol()
+comment3.text=\n\ Method\:\ getCol()\n\ Usage\:\ determines\ the\ number\ of\ columns\n\ @return\ the\ number\ of\ columns\ in\ the\ object\ \n
+comment4.params=other
+comment4.target=boolean\ equals(java.lang.Object)
+comment4.text=\n\ Method\:\ equals()\n\ Usage\:\ determines\ if\ two\ MyLocation\ objects\ are\ equal\ \n\ @return\ true\ if\ the\ two\ objects\ have\ the\ same\ number\ \n\ of\ rows\ and\ columns,\ false\ otherwise\n\ @param\ other\ the\ other\ MyLocation\ object\ to\ compare\ to\ \n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Method\:\ toString()\n\ Usage\:\ prints\ the\ object\ as\ a\ string\ \n\ @return\ a\ string\ with\ the\ number\ of\ rows\ and\ columns\ \n\ of\ the\ object,\ separated\ by\ a\ comma,\ surrounded\ by\ brackets\n\ \n
+comment6.params=x
+comment6.target=int\ compareTo(java.lang.Object)
+comment6.text=\n\ Method\:\ compareTo()\n\ Usage\:\ compares\ two\ MyLocation\ objects\ \n\ A\ MyLocation\ object\ is\ less\ than\ another\ MyLocation\ object\ \n\ if\ it\ has\ fewer\ rows,\ or\ if\ they\ have\ the\ same\ number\ of\ rows,\ \n\ if\ it\ has\ fewer\ columns.\ Two\ MyLocation\ objects\ are\ equal\ \n\ if\ they\ have\ the\ same\ number\ of\ rows\ and\ columns.\ Otherwise,\ \n\ the\ MyLocation\ object\ is\ greater\ than\ the\ other\ MyLocation\ object.\ \n\ @return\ -1\ if\ this\ object\ is\ less\ than\ the\ other\ object,\ \n\ 0\ if\ the\ objects\ are\ equal,\ 1\ if\ this\ object\ is\ greater\ \n\ @param\ x\ the\ other\ MyLocation\ object\ to\ compare\ to\ \n
+numComments=7

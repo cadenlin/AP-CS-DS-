@@ -1,0 +1,35 @@
+person 
+animal
+object 
+air
+$
+$
+computer 
+$
+$
+dog
+cat 
+$
+$
+golden retriever
+$
+$
+student
+president
+bill gates
+$
+$
+donald trump
+$
+$
+student in CS
+charles
+$
+$
+bad hair
+raymond
+$
+$
+bobby
+$
+$

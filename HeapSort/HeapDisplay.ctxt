@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=HeapDisplay
+comment1.params=
+comment1.target=HeapDisplay()
+comment2.params=heapArray\ heapSize
+comment2.target=void\ displayHeap(java.lang.Comparable[],\ int)
+numComments=3

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Block
+comment0.text=\n\ class\ BLock\ encapsulates\ a\ Block\ abstraction\ which\ can\ be\ placed\ into\ a\ Gridworld\ style\ grid\n\ You\ are\ expected\ to\ comment\ this\ class\ according\ to\ the\ style\ guide.\n\ @author\ Caden\ Lin\ \n\ @version\ March\ 16,\ 2021\ \n
+comment1.params=
+comment1.target=Block()
+comment1.text=\n\ constructs\ a\ blue\ block,\ because\ blue\ is\ the\ greatest\ color\ ever\!\n
+comment2.params=
+comment2.target=java.awt.Color\ getColor()
+comment2.text=\ Determines\ the\ color\ of\ the\ block\ \n\ @return\ the\ color\ of\ the\ block\n\ \n
+comment3.params=newColor
+comment3.target=void\ setColor(java.awt.Color)
+comment3.text=\ Sets\ the\ color\ of\ the\ block\n\ @postcondition\ the\ color\ of\ the\ block\ is\ newColor\ \n\ @param\ newColor\ the\ new\ color\ of\ the\ block\ \n\ \n
+comment4.params=
+comment4.target=void\ removeSelfFromGrid()
+comment4.text=\ Removes\ the\ block\ from\ the\ grid\ it\ is\ in\ \n\ @postcondition\ the\ block\ is\ removed\ from\ its\ grid\ \n\ \n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Produces\ a\ string\ with\ the\ location\ and\ color\ of\ this\ block\n\ @return\ a\ string\ with\ the\ location\ and\ color\ of\ this\ block\n
+numComments=6
