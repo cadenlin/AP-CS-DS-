@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Phrase
+comment0.text=\n\ The\ Phrase\ class\ creates\ phrases\ that\ consist\ of\ tokens.\ \n\n\ @author\ Caden\ Lin\ \n\ @version\ March\ 26\ 2021\ \n
+comment1.params=
+comment1.target=Phrase()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Phrase\n
+comment2.params=t
+comment2.target=void\ addToken(Token)
+comment2.text=\n\ Adds\ a\ token\ to\ the\ phrase\ \n\n\ @param\ \ t\ the\ token\ to\ add\ to\ the\ phrase\n\ @postcondition\ the\ token\ t\ is\ added\ to\ the\ phrase\ \n
+comment3.params=
+comment3.target=java.util.ArrayList\ getPhrase()
+comment3.text=\ Gets\ the\ internal\ data\ structure\ holding\ the\ tokens\ \n\ @return\ the\ ArrayList\ holding\ the\ tokens\ of\ the\ phrase\ \n\ \n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\ Returns\ the\ phrase\ as\ a\ string\ representation\ \n\ @return\ a\ string\ with\ the\ tokens\ of\ the\ phrase,\ separated\ by\ commas\ \n\ \n
+numComments=5

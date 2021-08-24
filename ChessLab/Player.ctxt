@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\n\ The\ Player\ class\ provides\ a\ blueprint\ for\ a\ chess\ player.\ \n\n\ @author\ Caden\ Lin\ \n\ @version\ May\ 22,\ 2021\ \n
+comment1.params=b\ n\ c
+comment1.target=Player(Board,\ java.lang.String,\ java.awt.Color)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Player\n\ @param\ b\ the\ board\ to\ use\ \n\ @param\ n\ the\ name\ of\ the\ player\ \n\ @param\ c\ the\ color\ of\ the\ player's\ pieces\ \n
+comment2.params=
+comment2.target=Move\ nextMove()
+comment2.text=\n\ A\ blueprint\ to\ get\ the\ player's\ next\ move\ \n\n\ @return\ \ \ \ the\ next\ move\n
+comment3.params=
+comment3.target=Board\ getBoard()
+comment3.text=\n\ Gets\ the\ board\ \n\ @return\ the\ board\n
+comment4.params=
+comment4.target=java.lang.String\ getName()
+comment4.text=\n\ Gets\ the\ player\ name\ \n\ @return\ the\ name\n
+comment5.params=
+comment5.target=java.awt.Color\ getColor()
+comment5.text=\n\ Gets\ the\ player\ color\ \n\ @return\ the\ color\n
+numComments=6

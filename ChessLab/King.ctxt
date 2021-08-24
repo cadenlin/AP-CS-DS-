@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=King
+comment0.text=\n\ The\ King\ class\ simulates\ the\ king\ chess\ piece.\ \n\n\ @author\ Caden\ Lin\ \n\ @version\ May\ 21,\ 2021\ \n
+comment1.params=col\ fileName
+comment1.target=King(java.awt.Color,\ java.lang.String)
+comment1.text=\ \n\ Constructor\ for\ objects\ of\ class\ King\n\ @param\ col\ the\ color\ of\ the\ king\ \n\ @param\ fileName\ the\ name\ of\ the\ file\ with\ the\ image\ of\ the\ king\ \n
+comment2.params=
+comment2.target=java.util.ArrayList\ destinations()
+comment2.text=\ Finds\ all\ possible\ destinations\ of\ the\ king\ \n\ @return\ an\ arraylist\ of\ locations\ with\ the\ valid\ \n\ \ \ \ \ \ \ \ \ \ destinations\ that\ the\ king\ could\ move\ to\ \n\ \n
+numComments=3

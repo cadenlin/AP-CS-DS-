@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Token
+comment0.text=\n\ A\ Token\ is\ either\ a\ word,\ digit,\ end\ of\ phrase\ character,\ \n\ \ end\ of\ sentence\ character,\ special\ character,\ or\ end\ of\ file.\ \n\n\ @author\ Caden\ Lin\ \n\ @version\ May\ 21,\ 2021\ \n
+comment1.params=scan\ val
+comment1.target=Token(Scanner.TOKEN_TYPE,\ java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Token\n\ @param\ scan\ the\ type\ of\ the\ token\ \n\ @param\ val\ a\ string\ form\ of\ the\ token\ \n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\n\ Converts\ the\ Token\ into\ a\ string\ \n\n\ @return\ a\ string\ representation\ of\ the\ token\ \n
+comment3.params=
+comment3.target=Scanner.TOKEN_TYPE\ getType()
+comment3.text=\ Gets\ the\ type\ of\ the\ token\ \n\ @return\ the\ type\ of\ the\ token\ \n\ \n
+comment4.params=
+comment4.target=java.lang.String\ getToken()
+comment4.text=\ Gets\ the\ value\ of\ the\ token\ \n\ @return\ a\ string\ of\ the\ contents\ of\ the\ token\ \n\ \n
+comment5.params=t
+comment5.target=boolean\ equals(java.lang.Object)
+comment5.text=\ Determines\ if\ two\ tokens\ are\ equal\ by\ comparing\ \n\ \ their\ types\ and\ values\ \n\ \ @param\ t\ the\ other\ token\ to\ compare\ to\ \n\ \ @return\ true\ if\ the\ tokens\ are\ equal,\ false\ otherwise\ \n\ \n
+numComments=6

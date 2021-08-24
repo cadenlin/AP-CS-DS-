@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Rectangle
+comment0.text=\ The\ Rectangle\ class\ creates\ Rectangles\ with\ a\ width\ and\ length.\ \n\ @author\ Caden\ Lin\ \n\ @version\ Feb\ 9\ 2021\n
+comment1.params=len\ w
+comment1.target=Rectangle(int,\ int)
+comment1.text=\ Constructor\ for\ Rectangle\ objects\ \n\ @param\ len\ the\ length\ of\ the\ rectangle\ \n\ @param\ w\ the\ width\ of\ the\ rectangle\ \n\ \n
+comment2.params=
+comment2.target=int\ getLength()
+comment2.text=\ determines\ the\ length\ of\ the\ rectangle\ \n\ @return\ the\ length\ of\ the\ rectangle\ \n\ \n
+comment3.params=
+comment3.target=int\ getWidth()
+comment3.text=\ determines\ the\ width\ of\ the\ rectangle\ \n\ @return\ the\ width\ of\ the\ rectangle\ \n\ \n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\ returns\ a\ string\ output\ of\ the\ dimensions\ of\ the\ rectangle\ \n\ @return\ a\ string\ with\ the\ dimensions\ of\ the\ rectangle\ \n\ \n
+comment5.params=rec
+comment5.target=boolean\ equals(Rectangle)
+comment5.text=\ determines\ if\ two\ rectangles\ have\ equal\ dimensions\ \n\ @param\ rec\ the\ rectangle\ to\ compare\ to\ this\ one\ \n\ @return\ true\ if\ the\ rectangles\ have\ the\ same\ dimensions,\ false\ otherwise\ \n\ \n
+comment6.params=
+comment6.target=int\ hashCode()
+comment6.text=\ Determines\ the\ hashCode\ of\ the\ rectangle\ \n\ @return\ the\ hashCode\ of\ the\ rectangle\ \n\ \n
+numComments=7

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=FindAuthor
+comment0.text=\n\ A\ FindAuthor\ object\ can\ calculate\ common\ stats\ for\ a\ document\ \n\ and\ then\ guess\ the\ author\ of\ the\ document.\ \n\n\ @author\ Caden\ Lin\ \n\ @version\ May\ 21,\ 2021\ \n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ The\ main\ method\ that\ chooses\ a\ document\ \n\n\ @param\ args\ arguments\ from\ the\ command\ line\n\ @throws\ FileNotFoundException\ if\ no\ file\ is\ found\n
+comment2.params=doc
+comment2.target=void\ guess(Document)
+comment2.text=\n\ Takes\ in\ a\ document\ and\ prints\ out\ the\ guessed\ author\ based\ on\ the\ \n\ value\ returned\ by\ compareStats\ method\n\n\ @param\ doc\ the\ document\ whose\ author\ is\ to\ be\ guessed\n
+comment3.params=doc\ author
+comment3.target=float\ compareStats(float[],\ float[])
+comment3.text=\n\ Compares\ the\ stats\ of\ a\ given\ document\ to\ those\ of\ a\ given\ author.\n\ the\ weights\ of\ the\ stats\ are\ preselected.\ \n\ @param\ doc\ the\ document\ whose\ author\ is\ being\ found\n\ @param\ author\ the\ author\ whose\ work\ is\ being\ compared\ to\ the\ document\n\ @return\ a\ float\ that\ is\ smaller\ the\ closer\ the\ document\ matches\ with\n\ \ \ \ \ \ \ \ \ the\ given\ author.\n
+comment4.params=doc
+comment4.target=float[]\ calculateStats(Document)
+comment4.text=\n\ Calculates\ the\ stats\ for\ a\ given\ document\:\n\ \ average\ word\ length,\ type\ to\ token\ ratio,\n\ \ hypax\ legomana\ ratio,\ average\ words\ per\ sentence,\n\ and\ average\ sentence\ complexity,\n\n\ @param\ doc\ the\ document\ to\ search\ \n\ @return\ a\ float\ array\ with\ the\ stats\ of\ the\ document\n
+comment5.params=
+comment5.target=getAuthorStats()
+comment5.text=\n\ Returns\ a\ map\ whose\ keys\ are\ the\ names\n\ of\ the\ authors\ and\ whose\ values\ are\ their\ stats.\n\n\ @return\ a\ map\ containing\ known\ authors\ and\ their\ stats\n
+numComments=6

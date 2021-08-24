@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ListNode
+comment0.text=\ The\ ListNode\ class\ creates\ nodes\ for\ a\ doubly-linked\ list,\ in\ which\ each\ node\ has\ a\ value,\ \n\ as\ well\ as\ a\ reference\ to\ the\ next\ and\ previous\ node\ in\ the\ list.\n\ @author\ Caden\ Lin\ \n\ @version\ November\ 10\ 2020\ \n
+comment1.params=v
+comment1.target=ListNode(java.lang.Object)
+comment1.text=Constructor\ for\ ListNode\ objects\n\ \n\ @param\ v\ the\ value\ that\ is\ stored\ in\ the\ node\n\ \n
+comment2.params=
+comment2.target=java.lang.Object\ getValue()
+comment2.text=\ Gets\ the\ value\ of\ the\ node\ \n\ \n\ @return\ the\ value\ stored\ in\ the\ node\n\ \n
+comment3.params=
+comment3.target=ListNode\ getNext()
+comment3.text=\ Gets\ the\ reference\ to\ the\ previous\ node\n\ \n\ @return\ the\ reference\ the\ next\ node\ (null\ if\ it\ is\ the\ last\ node)\ \n\ \ \ \ \ \n\ \n
+comment4.params=v
+comment4.target=void\ setValue(java.lang.Object)
+comment4.text=\ Replaces\ the\ value\ of\ the\ node\ with\ a\ new\ value\ \n\ \n\ @postcondition\ the\ value\ of\ the\ node\ is\ replaced\ with\ the\ new\ object\n\ \n
+comment5.params=n
+comment5.target=void\ setNext(ListNode)
+comment5.text=\ Changes\ the\ node\ after\ this\ node\ \n\ \n\ @postcindition\ the\ reference\ to\ the\ next\ node\ (given\ by\ the\ variable\ next)\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ is\ replaced\ with\ a\ new\ reference\ \n
+numComments=6

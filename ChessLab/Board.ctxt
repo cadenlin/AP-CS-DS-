@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Board
+comment0.text=\ \n\ A\ Board\ represents\ a\ rectangular\ game\ board,\ containing\ Piece\ objects.\n\ \n\ \ @author\ Caden\ Lin\ \n\ \ @version\ May\ 21,\ 2021\ \n
+comment1.params=
+comment1.target=Board()
+comment1.text=\ Constructs\ a\ new\ 8x8\ board.\ \n\ \n
+comment2.params=move
+comment2.target=void\ undoMove(Move)
+comment2.text=\ Undoes\ a\ move\ by\ moving\ the\ piece\ back\ to\ its\ source\ \n\ \ @precondition\ the\ move\ has\ already\ been\ made\ on\ the\ board\n\ \ @postcondition\ the\ piece\ has\ moved\ back\ to\ its\ source,\n\ \ \ \ \ \ \ \ \ \ and\ any\ captured\ piece\ is\ returned\ to\ its\ location\n\ \ \ @param\ move\ the\ move\ that\ is\ to\ be\ undone\ \n\ \n
+comment3.params=color
+comment3.target=java.util.ArrayList\ allMoves(java.awt.Color)
+comment3.text=\ Determines\ all\ the\ possible\ moves\ that\ can\ be\ made\ with\ pieces\ of\ a\ given\ color\ \n\ @param\ color\ the\ piece\ color\ to\ find\ the\ possible\ moves\ of\ \n\ @return\ an\ arraylist\ with\ the\ possible\ Moves\ that\ can\ be\ made\ \n\ \n\ \n
+comment4.params=move
+comment4.target=void\ executeMove(Move)
+comment4.text=\ Executes\ a\ move\ by\ moving\ a\ piece\ from\ a\ source\ to\ its\ destination\ \n\ @postcondition\ the\ specified\ piece\ has\ been\ moved\ to\ the\ specified\ destination\ \n\ @param\ move\ the\ move\ to\ be\ executed\ \n\ \n\n
+numComments=5

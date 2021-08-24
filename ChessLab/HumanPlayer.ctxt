@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=HumanPlayer
+comment0.text=\n\ The\ HumanPlayer\ class\ allows\ a\ human\ to\ play\ a\ game\ of\ chess.\n\ \n\n\ @author\ Caden\ Lin\n\ @version\ May\ 21,\ 2021\ \n
+comment1.params=d\ b\ n\ c
+comment1.target=HumanPlayer(BoardDisplay,\ Board,\ java.lang.String,\ java.awt.Color)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ HumanPlayer\n\ @param\ d\ the\ board\ display\ \n\ @param\ b\ the\ board\ being\ used\ \n\ @param\ n\ the\ name\ of\ the\ player\ \n\ @param\ c\ the\ color\ of\ the\ player's\ pieces\ \n
+comment2.params=
+comment2.target=Move\ nextMove()
+comment2.text=\n\ Finds\ the\ next\ move\ of\ the\ player\ by\ allowing\ \n\ the\ user\ to\ select\ a\ possible\ move\ \n\n\ @return\ \ the\ next\ move\ of\ the\ player\ \n
+numComments=3
